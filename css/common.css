@@ -173,6 +173,7 @@ body::-webkit-scrollbar-track{
 .gitbtn{
     background-color: rgb(5, 194, 201)!important;
     color: white!important;
+    text-align-center
 }
 .lk{
     overflow: hidden;
