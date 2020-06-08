@@ -1,7 +1,7 @@
 html,body
 {
-    margin: 0px;
-    padding: 0px;
+    margin: 0px!important;
+    padding: 0px!important;
     scroll-behavior: smooth;
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
@@ -56,6 +56,7 @@ body::-webkit-scrollbar-track{
     position: absolute;
     top: 50%;
     left: 50%;
+    width: 100%;
     transform: translate(-50%,-50%);
     text-align: center;
     color: white;
@@ -67,10 +68,7 @@ body::-webkit-scrollbar-track{
 .vmw{
     color: white;
     background-color: transparent;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding: 10px;
     font-size: 24px;
     border: 2px solid white;
     border-color: white;
@@ -84,6 +82,7 @@ body::-webkit-scrollbar-track{
 }
 .vmwdiv{
     flex-direction: initial;
+    margin-top: 20px;
     justify-content: center;
 }
 .main1
@@ -140,7 +139,7 @@ body::-webkit-scrollbar-track{
     height: 100px;
     position: relative;
     top: 50%;
-    left: 55%;
+    left: 50%;
     transform: translate(-50%, 0%);
     background-color: rgb(5, 194, 201)!important;
     clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
@@ -173,7 +172,6 @@ body::-webkit-scrollbar-track{
 .gitbtn{
     background-color: rgb(5, 194, 201)!important;
     color: white!important;
-    text-align-center
 }
 .lk{
     overflow: hidden;
